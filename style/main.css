@@ -1,0 +1,151 @@
+body {
+    padding: 0;
+    margin: 0;
+    
+    font-family: "Segoe UI";
+    font-weight: 300;
+}
+
+header {
+    width: 100%;
+    padding: 0;
+    margin: 0;
+}
+
+#headertitle {
+    font-weight: 300;
+    display: inline;
+    margin: 0;
+    padding: 0;
+    margin-left: 1vw;
+    margin-top: 50px;
+}
+
+#headercontainer {
+    margin-top: 20px;
+}
+
+#fixed-navbar {    
+    margin: 0;
+    padding: 10px;
+    border: 1px black;  
+    width: 100%;
+    box-shadow: 0px 5px 5px lightgrey;
+    position: fixed;
+    background-color: white;
+}
+
+.inline {
+    display: flex;
+}
+
+.menu-item-selected {
+    padding: 7px;
+    margin: 10px;
+    color: darkslateblue;
+    border-width: 3px;
+    border-style: solid;
+    border-radius: 7px ;
+}
+
+.menu-item-selected:hover {
+    text-decoration: none;
+    border-color: darkslateblue;
+    color: darkslateblue;
+}
+
+.menu-item {
+    border-bottom-color: black;
+    border-bottom-width: 10px;
+    text-   decoration: none;
+    padding: 20px;
+}
+
+.menu-item:hover {
+    text-decoration: none;
+}
+
+.selected{
+    text-decoration: none;
+    color: black;   
+}
+
+#menu {
+    float: right;
+}
+
+#header-image {
+    background-image: url('../image/header.jpg');
+    background-size: cover;
+    height: 100vh;
+    background-position: bottom;
+    padding-top: 200px;
+    padding-left: 100px;
+}
+
+#page-title {
+    background-color: white;
+    width: 50vw;
+    padding: 20px;
+    border-radius: 20px;
+    color: black;
+    box-shadow: 0px 5px 6px grey;
+}
+
+#page-title h1 {
+    font-family: "Segoe UI";
+    font-weight: 100;
+    text-shadow: 0px 5px 5px black;
+    color: royalblue;
+    display: block;
+    font-size: 50px
+}
+
+#page-title h5 {
+    font-family: "Segoe UI";
+    font-size: 20px;
+    font-weight: 400;
+    padding-top: 20px;
+}
+
+#detail-image {
+    width: 40vw;
+    height: 200vh;
+    background-image: url('../image/detail-header-image.jpg');
+    background-size: cover;
+    float: right;
+    background-attachment: fixed;
+}
+
+section {
+    display: block;
+    padding: 20px;
+    padding-top: 100px;
+    width: 60vw;
+    margin: 0;
+    height: 100vh;
+    font-family: "Segoe UI";
+}
+
+section h1 {
+    font-weight: 50;
+    color: royalblue;
+    font-size: 60px;
+    padding: 0;
+    padding-bottom: 20px;
+    border-bottom-color: royalblue;
+    border-bottom-style: solid;
+    border-bottom-width: 2px;
+    width: auto;
+    display: inline-block;    
+    margin: 0;
+    margin-bottom: 10px;
+}
+
+section p {
+    margin: 10px;
+    font-size: 20px;
+    overflow: visible;
+    word-wrap: break-word;
+    height: auto;
+}
